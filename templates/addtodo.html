@@ -1,0 +1,8 @@
+{% extends 'home.html' %}
+{% block title %}<title>TODO</title>{% endblock %}
+{% block body %}
+<h1>TO_DO_LIST</h1>
+{% for row in data %}
+<p>{{ row }}</p>
+{% endfor %}
+{% endblock %}
